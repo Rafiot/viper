@@ -101,13 +101,14 @@ malwr_prefix = https://malwr.com
 [misp]
 misp_url =
 misp_key =
-misp_verify = True
 misp_vturl = https://www.virustotal.com/vtapi/v2/file/report
 # Set the following to select default distribution and sharing group (if in use)
 # Distribution ranges from 0-4, with sharing group only set when distribution is 4.
 # Leave empty to use PyMISP default
 misp_distribution =
 misp_sharinggroup =
+https_proxy = False
+tls_verify = True
 
 [pssl]
 pssl_url =
